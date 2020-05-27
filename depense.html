@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WMC ERP</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,700">
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/perso.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    
+  </head>
+  <body>
+    <header class="header">   
+      <nav class="navbar navbar-expand-lg">
+        <div class="search-panel">
+          <div class="search-inner d-flex align-items-center justify-content-center">
+            <div class="close-btn">Fermer<i class="fa fa-close"></i></div>
+            <form id="searchForm" action="#">
+              <div class="form-group">
+                <input type="search" name="search" placeholder="What are you searching for...">
+                <button type="submit" class="submit">Recherche</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+          <div class="navbar-header">
+            <a href="index.html" class="navbar-brand">
+              <div class="brand-text brand-big visible text-uppercase"><strong class="text-primary">WCM </strong>&nbsp;<strong>ERP</strong></div>
+              <div class="brand-text brand-sm"><strong class="text-primary">W</strong><strong>E</strong></div></a>
+           
+            <button class="sidebar-toggle"><i class="fa fa-long-arrow-left"></i></button>
+          </div>
+          <div class="right-menu list-inline no-margin-bottom">    
+        
+            <div class="list-inline-item logout">
+              <a id="logout" href="login.html" class="nav-link"> <span class="d-none d-sm-inline">Deconnection </span><i class="icon-logout"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="d-flex align-items-stretch">
+      
+      <nav id="sidebar">
+        
+        <div class="sidebar-header d-flex align-items-center">
+          <div class="avatar"><img src="img/aniki.jpg" alt="..." class="img-fluid rounded-circle"></div>
+          <div class="title">
+            <h1 class="h5">Jean-aquilas</h1>
+            <p>Developpeur JavaScript</p>
+          </div>
+        </div>
+         
+        <ul class="list-unstyled">
+          <li ><a href="#"> <i class="icon-home"></i>Acceuil </a></li>
+         
+          <li class="active"><a href="#" > <i class="fa fa-bar-chart"></i>Dépenses</a></li>
+          <li><a href="#" > <i class="icon-padnote"></i>Factures </a></li>
+          <li><a href="#"> <i class="icon-padnote"></i>Gestion du stock </a></li>
+          <li><a href="#"> <i class="icon-padnote"></i>Archivage </a></li>
+         
+            </ul>
+          </li>
+          <li><a href="#"> <i class="icon-logout"></i>Se connecter </a></li>
+        </ul>
+      </nav>
+      
+      <div class="page-content">
+        <div class="page-header">
+          <div class="container-fluid">
+            <h2 class="h5 no-margin-bottom">GESTION D'ENTREPRISE<h2>
+          </div>
+        </div>
+        <section class="no-padding-top no-padding-bottom">
+          <div class="container-fluid">
+            <div class="row">
+              
+             <div>
+            
+
+
+              <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-lg">Ajouter une dépense</button>
+
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <p> reflechi a ce que tu vas mettre ici , c'est un formulaire dk 
+                        on a dit on allait faire devis,facture stock et je sais plus trop 
+                        donc faut voir et modifier en fonction de ce qui il y a a modifier
+                        // ceci est un message pour dk <hr>
+                        Aniki
+                    </p>
+                  </div>
+                </div>
+              </div> <hr>
+
+
+
+
+             </div>
+
+             </div>
+              <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">N° </th>
+                    <th scope="col">Fournisseur</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Statut</th>
+                    <th scope="col">Montant</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>10-11-2012</td>
+                    <td>payé</td>
+                    <td>150 000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>04-04-2020</td>
+                    <td>en attente</td>
+                    <td>350 000</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Jean-aquilas</td>
+                    <td>25-05-2020</td>
+                    <td>payé</td>
+                    <td>200 000</td>
+                  </tr>
+                </tbody>
+              </table>
+             
+            </div>
+          </div>
+        </section>
+      
+      
+       
+    
+   
+       
+        <footer class="footer">
+          <div class="footer__block block no-margin-bottom">
+            <div class="container-fluid text-center">
+          
+            <p class="no-margin-bottom">2020 &copy;SITA <a href="https://bootstrapious.com/p/bootstrap-4-dark-admin">S.A</a></p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"> </script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+    <script src="js/charts-home.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
